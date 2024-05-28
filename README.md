@@ -25,11 +25,12 @@ To run this project, you need a modern web browser.
 ### Installation
 
 1. Clone the repository:
-2. public/
-├── index.html
-├── styles.css
-├── script.js
-└── README.md
+2. Cleanomatics-Coding-Assessment
+  ├── public/
+    ├── index.html
+    ├── styles.css
+    ├── script.js
+    └── README.md
 
 ### Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
