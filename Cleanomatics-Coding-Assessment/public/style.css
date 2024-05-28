@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #454545;
+}
+
+.container {
+  background-color: #fffafa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(236, 4, 4,0.9);
+  width: 90%;
+  max-width: 600px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.input-section, .vehicle-selection, .result {
+  margin-bottom: 20px;
+}
+
+.vehicle-selection div {
+  margin: 5px 0;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0024b3;
+}
+
+.result p {
+  margin: 10px 0;
+}

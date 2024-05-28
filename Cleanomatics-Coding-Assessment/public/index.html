@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Transport Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vehicle Transport Converter</h1>
+        <div class="input-section">
+            <label for="distance">Enter Distance (KM):</label>
+            <input type="number" id="distance" name="distance">
+        </div>
+        <div class="vehicle-selection">
+            <h2>Select a Vehicle</h2>
+            <div>
+<!-- 1 -->      <input type="radio" id="maruti-alto" name="vehicle" value="Maruti Suzuki Alto">
+                <label for="maruti-alto">Maruti Suzuki Alto</label>
+            </div>
+
+            <div>
+<!-- 2 -->      <input type="radio" id="hyundai-i20" name="vehicle" value="Hyundai i20">
+                <label for="hyundai-i20">Hyundai i20</label>
+            </div>
+
+            <div>
+<!-- 3 -->      <input type="radio" id="tata-nexon" name="vehicle" value="Tata Nexon">
+                <label for="tata-nexon">Tata Nexon</label>
+            </div>
+            
+            <div>
+<!-- 4 -->      <input type="radio" id="honda-city" name="vehicle" value="Honda City">
+                <label for="honda-city">Honda City</label>
+            </div>
+            
+            <div>
+<!-- 5 -->      <input type="radio" id="mahindra-thar" name="vehicle" value="Mahindra Thar">
+                <label for="mahindra-thar">Mahindra Thar</label>
+            </div>
+            
+            <div>
+<!-- 6 -->      <input type="radio" id="toyota-innova-crysta" name="vehicle" value="Toyota Innova Crysta ">
+                <label for="toyota-innova-crysta">Toyota Innova Crysta </label>
+            </div>
+            
+            <div>
+<!-- 7 -->      <input type="radio" id="kia-saltos" name="vehicle" value="Kia Seltos">
+                <label for="kia-saltos">Kia Seltos</label>
+            </div>
+            
+            <div>
+<!-- 8 -->      <input type="radio" id="renault-kwid" name="vehicle" value="Renault Kwid">
+                <label for="renault-kwid">Renault Kwid</label>
+            </div>
+            
+            <div>
+<!-- 9 -->      <input type="radio" id="ford-sport" name="vehicle" value="Ford EcoSport">
+                <label for="ford-sport">Renault Kwid</label>
+            </div>
+            
+            <div>
+<!-- 10-->      <input type="radio" id="tata-tiago" name="vehicle" value="Tata Tiago">
+                <label for="tata-tiago"">Tata Tiago</label>
+            </div>
+            
+        </div>
+        <button id="calculate-btn">Calculate</button>
+        <div class="result">
+            <h2>Results</h2>
+            <p id="time-result"></p>
+            <p id="fuel-result"></p>
+            <p id="comparison-result"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
